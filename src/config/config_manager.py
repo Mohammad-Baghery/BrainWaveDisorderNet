@@ -110,3 +110,18 @@ class ConfigManager:
             else:
                 return None
         return value
+
+    def set(self, value: Any, *keys):
+        """
+        Set configuration value using dot notation
+        Args:
+            value: Value to set
+            *keys: Configuration keys
+        """
+        config = self.config
+        for key in keys[:-1]:
+            if key not in config:
+                config[key] = {}
+            config = config[key]
+        config[keys[-1]] = value
+        self._save_config()

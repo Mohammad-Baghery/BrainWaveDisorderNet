@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="Create Project" />
+    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="Recursively merge custom config with default">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config_manager.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -107,7 +110,63 @@
       <option name="project" value="LOCAL" />
       <updated>1754367874761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create Project">
+      <option name="closed" value="true" />
+      <created>1754367928484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754367928484</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create Project">
+      <option name="closed" value="true" />
+      <created>1754370366853</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754370366853</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create config_manager.py">
+      <option name="closed" value="true" />
+      <created>1754370421570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754370421570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Load Custom Config">
+      <option name="closed" value="true" />
+      <created>1754370494146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754370494146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Load default configuration">
+      <option name="closed" value="true" />
+      <created>1754370728885</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754370728885</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Load configuration from file">
+      <option name="closed" value="true" />
+      <created>1754371421838</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754371421838</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Recursively merge custom config with default">
+      <option name="closed" value="true" />
+      <created>1754371484933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754371484933</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +182,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
+    <MESSAGE value="Create config_manager.py" />
+    <MESSAGE value="Load Custom Config" />
+    <MESSAGE value="Load default configuration" />
+    <MESSAGE value="Load configuration from file" />
+    <MESSAGE value="Recursively merge custom config with default" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursively merge custom config with default" />
   </component>
 </project>
