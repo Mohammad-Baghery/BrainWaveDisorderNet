@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="Add Model utilities">
+    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="Add Performance monitoring file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754388696249</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add Performance monitoring file">
+      <option name="closed" value="true" />
+      <created>1754389021181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1754389021181</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +322,8 @@
     <MESSAGE value="GPU utilities file" />
     <MESSAGE value="Data visualization utilities" />
     <MESSAGE value="Add Model utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Model utilities" />
+    <MESSAGE value="Add Performance monitoring file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Performance monitoring file" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="Update Model Trainer" />
   </component>
 </project>
