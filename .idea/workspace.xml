@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="add def for getting all configuration">
-      <change afterPath="$PROJECT_DIR$/src/data/data_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/cnn_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/trainer.py" afterDir="false" />
+    <list default="true" id="065e7ad9-fec3-44b2-bd3a-52137e8e9d2d" name="Changes" comment="Add Model utilities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +200,87 @@
       <option name="project" value="LOCAL" />
       <updated>1754372107306</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="CNN Model Architecture">
+      <option name="closed" value="true" />
+      <created>1754381558982</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1754381558982</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add EEG Data Processor">
+      <option name="closed" value="true" />
+      <created>1754381588531</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1754381588531</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create Model Trainer">
+      <option name="closed" value="true" />
+      <created>1754381757393</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1754381757394</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update Model Trainer">
+      <option name="closed" value="true" />
+      <created>1754381877057</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754381877057</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update Model Trainer">
+      <option name="closed" value="true" />
+      <created>1754382253090</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1754382253090</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Model Evaluator">
+      <option name="closed" value="true" />
+      <created>1754382290067</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1754382290067</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add Logger file for logs">
+      <option name="closed" value="true" />
+      <created>1754383928825</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1754383928825</updated>
+    </task>
+    <task id="LOCAL-00024" summary="GPU utilities file">
+      <option name="closed" value="true" />
+      <created>1754384644864</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1754384644864</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Data visualization utilities">
+      <option name="closed" value="true" />
+      <created>1754384665599</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1754384665599</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add Model utilities">
+      <option name="closed" value="true" />
+      <created>1754388696249</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1754388696249</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +305,16 @@
     <MESSAGE value="Get configuration" />
     <MESSAGE value="Set configuration value" />
     <MESSAGE value="add def for getting all configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add def for getting all configuration" />
+    <MESSAGE value="CNN Model Architecture" />
+    <MESSAGE value="Add EEG Data Processor" />
+    <MESSAGE value="Create Model Trainer" />
+    <MESSAGE value="Update Model Trainer" />
+    <MESSAGE value="Add Model Evaluator" />
+    <MESSAGE value="Add Logger file for logs" />
+    <MESSAGE value="GPU utilities file" />
+    <MESSAGE value="Data visualization utilities" />
+    <MESSAGE value="Add Model utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Model utilities" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="Update Model Trainer" />
   </component>
 </project>
