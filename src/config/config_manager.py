@@ -125,3 +125,7 @@ class ConfigManager:
             config = config[key]
         config[keys[-1]] = value
         self._save_config()
+
+    def get_all(self) -> Dict[str, Any]:
+        """Get all configuration"""
+        return self.config.copy()
