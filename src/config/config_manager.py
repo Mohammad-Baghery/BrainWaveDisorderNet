@@ -86,3 +86,11 @@ class ConfigManager:
                 self._merge_configs(default[key], value)
             else:
                 default[key] = value
+
+    def _save_config(self):
+        os.makedirs(os.path.dirname(self.config_path), exist_ok=True)
+        try:
+            with open(self.config_path, 'w') as f:
+                json.dump(self.config, f, indent=4)
+        except Exception as e:
+            print(f"Error saving config: {e}")
