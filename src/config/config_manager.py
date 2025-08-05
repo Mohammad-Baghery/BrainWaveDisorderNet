@@ -11,3 +11,9 @@ class ConfigManager:
 
         self.config_path = config_path
         self.config = self._load_default_config()
+
+        if os.path.exists(config_path):
+            self._load_config()
+        else:
+            self._save_config()
+
