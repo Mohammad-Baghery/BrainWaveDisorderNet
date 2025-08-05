@@ -79,3 +79,10 @@ class ConfigManager:
         except Exception as e:
             print(f"Error loading config: {e}")
             print("Using default configuration")
+
+    def _merge_configs(self, default: Dict, custom: Dict):
+        for key, value in custom.items():
+            if key in default and isinstance(default[key], dict) and isinstance(value, dict):
+                self._merge_configs(default[key], value)
+            else:
+                default[key] = value
