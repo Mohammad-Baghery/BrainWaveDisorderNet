@@ -53,7 +53,7 @@ class EEGDataProcessor:
 
         # Assuming the last column is the target variable
         # and the rest are EEG channel data
-        X = df.iloc[:, :-1].values
+        X = df.iloc[:, 1:-1].values
         y = df.iloc[:, -1].values
 
         # Map class labels to meaningful names
