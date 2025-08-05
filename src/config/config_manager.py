@@ -70,3 +70,12 @@ class ConfigManager:
                 "log_file": "brainwave.log"
             }
         }
+
+    def _load_config(self):
+        try:
+            with open(self.config_path, 'r') as f:
+                custom_config = json.load(f)
+                self._merge_configs(self.config, custom_config)
+        except Exception as e:
+            print(f"Error loading config: {e}")
+            print("Using default configuration")
