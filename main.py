@@ -1,7 +1,6 @@
 """
 BrainWaveDisorderNet - EEG Signal Analysis for Neurological Disorder Detection
-Main application file
-Author: AI Assistant
+Author: Mohammad Baghery
 Compatible with: TensorFlow Metal
 """
 import os
