@@ -94,3 +94,19 @@ class ConfigManager:
                 json.dump(self.config, f, indent=4)
         except Exception as e:
             print(f"Error saving config: {e}")
+
+    def get(self, *keys) -> Any:
+        """
+        Get configuration value using dot notation
+        Args:
+            *keys: Configuration keys
+        Returns:
+            Configuration value
+        """
+        value = self.config
+        for key in keys:
+            if isinstance(value, dict) and key in value:
+                value = value[key]
+            else:
+                return None
+        return value
