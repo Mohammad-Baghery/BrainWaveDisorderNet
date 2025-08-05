@@ -11,4 +11,3 @@ class ConfigManager:
 
         self.config_path = config_path
         self.config = self._load_default_config()
-
