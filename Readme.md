@@ -50,7 +50,7 @@ BrainWaveDisorderNet/
 ## 🔍 Architecture
 The architecture uses CNN layers for feature extraction and LSTM layers for temporal sequence modeling.
 
-![Architecture](assets/architecture.png) <!-- Add your architecture diagram here -->
+![Architecture](assets/brainwave_architecture.png) <!-- Add your architecture diagram here -->
 
 ---
 
