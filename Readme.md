@@ -83,33 +83,38 @@ This project uses the [Epileptic Seizure Recognition Dataset.](https://www.kaggl
 ## 📊 Results
 Overall Metrics
 
-```
-Metric	        Value
-Test Loss	0.5361
-Accuracy	77.13%
-Macro Avg F1	0.7691
-ROC-AUC (Macro)	0.9569
-```
+
+
+| Metric | Value |
+| ------- | ------ |
+| Test Loss | 0.5361
+| Accuracy | 77.13% |
+|Macro Avg F1 | 0.7691 |
+|    ROC-AUC (Macro)    |  0.9569     |
+
+
 ---
 Class-wise ROC-AUC
 
-```
-Class	                ROC-AUC
-Normal Activity	        0.9997
-Tumor Area	        0.9056
-Healthy Area	        0.9033
-Eyes Closed        	0.9924
-Seizure Activity        0.9834
-```
+| Class | ROC-AUC |
+| ----- | ----------- |
+|   Normal Activity    |    0.9997     |
+|   Tumor Area    |   0.9056      |
+|     Healthy Area  |     0.9033    |
+|      Eyes Closed |     0.9924   |
+|   Seizure Activity     |   0.9834      |
+
 ---
 Classification Report
-```
- Normal_Activity     precision=0.9954    recall=0.9348    f1=0.9641
- Tumor_Area          precision=0.6205    recall=0.4478    f1=0.5202
- Healthy_Area        precision=0.5623    recall=0.7065    f1=0.6262
- Eyes_Closed         precision=0.9714    recall=0.8109    f1=0.8839
- Seizure_Activity    precision=0.7666    recall=0.9565    f1=0.8511
-```
+
+| Status           | Precision | Recall | F1 |
+|------------------| --- | --- | --- |
+| Normal Activity  | 0.9954 | 0.9348 | 0.9641 |
+| Tumor Area       |       0.6205    |   0.4478     | 0.5202   |
+| Healthy Area     |     0.5623      |   0.7065     |  0.6262  |
+| Eyes Closed      |     0.9714      |     0.8109   | 0.8839   |
+| Seizure Activity |      0.7666     |    0.9565    |  0.8511  |
+
 ---
 
 ## 👀 Visualizations
